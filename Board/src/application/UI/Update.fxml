@@ -31,7 +31,7 @@
             <Font size="15.0" />
          </font>
       </TextArea>
-      <TextField fx:id="writer" layoutX="168.0" layoutY="497.0" prefHeight="34.0" prefWidth="197.0">
+      <TextField fx:id="writer" alignment="CENTER" layoutX="257.0" layoutY="497.0" prefHeight="34.0" prefWidth="197.0">
          <font>
             <Font size="15.0" />
          </font>
@@ -40,6 +40,11 @@
       <Label layoutX="505.0" layoutY="138.0" text="수정일자:" />
       <Text fx:id="regDate" layoutX="565.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="197.0" />
       <Label layoutX="505.0" layoutY="118.0" text="등록일자:" />
+      <Label alignment="CENTER" layoutX="168.0" layoutY="497.0" prefHeight="34.0" prefWidth="83.0" text="작성자">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
    </children>
    <padding>
       <Insets bottom="20.0" />
