@@ -66,4 +66,5 @@ public class UpdateController {
     	bs.update(board);
     	Main.setRoot("UI/List");
     }
+    
 }
