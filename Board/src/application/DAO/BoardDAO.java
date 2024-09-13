@@ -40,7 +40,7 @@ public class BoardDAO extends JDBConnection {
 			System.err.println("게시글 목록 조회 시, 예외 발생");
 			e.printStackTrace();
 		}
-		return boardList;
+		 return boardList;
 	}
   
   

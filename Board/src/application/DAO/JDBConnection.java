@@ -11,7 +11,7 @@ public class JDBConnection {
     public Connection con;
 	public Statement stmt;
 	public PreparedStatement psmt;
-	public ResultSet rs;
+	 public ResultSet rs;
 	
 	public JDBConnection() {
 		try {
