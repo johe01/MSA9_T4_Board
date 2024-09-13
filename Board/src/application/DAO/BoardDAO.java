@@ -13,7 +13,7 @@ public class BoardDAO extends JDBConnection {
 	 * 데이터 목록
 	 * @return
 	 */
-	public List<Board> list() {
+	 public List<Board> list() {
 		
 		List<Board> boardList = new ArrayList<>();
 		
